@@ -1,2 +1,3 @@
-# test_animation
-testing animation
+# JS Animations
+
+Enjoy !!!
