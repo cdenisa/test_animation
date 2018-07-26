@@ -1,3 +1,3 @@
 # JS Animations
 
-Enjoy !!!
+Enjoy =)
