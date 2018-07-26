@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test Animation</title>
+</head>
+
+<body>
+Content of the document......
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="some_text"></p>
+
+<script>
+document.getElementById("some_text").innerHTML = "Hello JavaScript!";
+
+function myFunction() {
+    document.getElementById("some_text").style.fontSize = "25px"; 
+    document.getElementById("some_text").style.color = "red";
+    document.getElementById("some_text").style.backgroundColor = "yellow";        
+}
+</script> 
+</body>
+
+</html>
